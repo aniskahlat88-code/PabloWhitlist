@@ -19,7 +19,7 @@ const db = mysql.createPool({
 });
 const CHANNEL_ID = "1537996649555558450";
 const UNWHITELIST_CHANNEL_ID = "1537996835078148177";
-const TOKEN = "MTUzNzU1OTgzNzc0NjEzNTEwMA.GsJACh.iZXfikX86blumg-SiSBVJ6OoCmguNkP1hwjfl8";
+const TOKEN = "MTUzODE3OTI5Nzc0MTc2Njc1OA.GNk2YO.CSwKJh9YYiSEougSXSzto07DvSHlXCB9DPXTD0";
 // إضافة Whitelist
 client.on("messageCreate", message => {
     if (message.channel.id !== CHANNEL_ID) return;
